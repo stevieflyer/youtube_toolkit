@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "youtube_toolkit"
+version = "0.1.0"
+description = "The comprehensive tool for YouTuber and YouTube watchers"
+authors = ["autom_admin"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+# autom = { git = "git@github.com:NaturaFlex/autom.git", branch = "main" }
+autom = { path = "/home/steve/workspace/autom" }
+
+[tool.autom]
+qualifier = "youtube_toolkit"
+name = "YouTube Toolkit"
+owner_qualifier = "autom_admin"
+owner_email = "admin@autom.com"
+description = "The comprehensive tool for YouTuber and YouTube watchers"
+python_version = "3.11"
+python_version_spec = "^3.11"
+publicity = "public"
+github_repo_url = "https://github.com/stevieflyer/youtube_toolkit.git"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
