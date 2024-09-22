@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.11"
 # autom = { git = "git@github.com:NaturaFlex/autom.git", branch = "main" }
 autom = { path = "/home/steve/workspace/autom" }
+yt-dlp = "^2024.8.6"
 
 [tool.autom]
 qualifier = "youtube_toolkit"

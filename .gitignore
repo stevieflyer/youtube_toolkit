@@ -168,3 +168,6 @@ cython_debug/
 
 # autom modules
 autom_modules/
+
+# output
+output/
